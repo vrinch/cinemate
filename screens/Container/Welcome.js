@@ -108,8 +108,8 @@ function Welcome({ navigation, getTagName, getTagStorage, getBlackList, getAuthS
       setErrorMessage('');
       setOpenErrorWrapper(false);
       setIsLoading(false);
-      navigation.navigate('MainScreen');
       setLoginSheetVisible(false);
+      navigation.navigate('MainScreen');
     }, 2000);
   };
 
